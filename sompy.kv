@@ -3,15 +3,18 @@
 <Tablet>: 
     orientation: "vertical"
     BoxLayout:
+        id: raiz
         orientation:"vertical"
         BoxLayout:
             orientation: "horizontal"
+            size_hint: 1, root.size_hint_y * 0.16
             Label:
                 text: "LOGO"
             Button:
                 text: "X"
         BoxLayout:
             orientation: "horizontal"
+            size_hint: 1, root.size_hint_y * 0.16
             Button:
                 text: "F1"
             Button:
@@ -41,10 +44,12 @@
 
         BoxLayout:
             orientation:"horizontal"
+            size_hint: 1, root.size_hint_y * 0.64
             BoxLayout:
                 orientation:"vertical"
                 BoxLayout:
                     orientation:"horizontal"
+                    size_hint: 1, root.size_hint_y * 0.16
                     Button:
                         text: "1"
                     Button:
@@ -71,6 +76,7 @@
                         text: "="
                 BoxLayout:
                     orientation:"horizontal"
+                    size_hint: 1, root.size_hint_y * 0.16
                     Button:
                         text: "Q"
                     Button:
@@ -97,6 +103,7 @@
                         text: "["
                 BoxLayout:
                     orientation:"horizontal"
+                    size_hint: 1, root.size_hint_y * 0.16
                     Button:
                         text: "A"
                     Button:
@@ -123,6 +130,7 @@
                         text: "]"
                 BoxLayout:
                     orientation:"horizontal"
+                    size_hint: 1, root.size_hint_y * 0.16
                     Button:
                         text: "\\"
                     Button:
@@ -150,11 +158,12 @@
         
             BoxLayout:
                 orientation:"vertical"
+                size_hint: root.size_hint_y * 0.083, 1
                 Button:
-                    text: "M"
+                    text: "Home"
                 Button:
-                    text: ","
+                    text: "PgUp"
                 Button:
-                    text: "."
+                    text: "PgDn"
                 Button:
-                    text: ";"
+                    text: "End"
