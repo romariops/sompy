@@ -16,10 +16,10 @@ class Tablet(BoxLayout):
 class SomPyApp(App):
     
     def build(self):
-        Window.bind(on_key_up=self.on_keyboard_up)
+        Window.bind(on_key_down=self.on_keyboard_down)
         return Tablet()
 
-    def on_keyboard_up(self, window, keycode, *args):
+    def on_keyboard_down(self, window, keycode, *args):
         play=PlaySom()
         play.play_samples(keycode)
         
