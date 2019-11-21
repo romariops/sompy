@@ -5,16 +5,23 @@ from kivy.uix.button import Button
 from som import PlaySom
 
 class Tablet(BoxLayout):
-    pass
+    def __init__(self):
+        super().__init__()
+    
+    def play_sample(self,keycode):
+        play=PlaySom()
+        play.play_samples(keycode)
+
     
 class SomPyApp(App):
+    
     def build(self):
         Window.bind(on_key_up=self.on_keyboard_up)
         return Tablet()
 
     def on_keyboard_up(self, window, keycode, *args):
-        print(keycode)
         play=PlaySom()
-        play.play(keycode)
+        play.play_samples(keycode)
+        
         
 SomPyApp().run()
