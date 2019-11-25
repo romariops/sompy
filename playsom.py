@@ -285,67 +285,67 @@ class PlaySom:
         sample.play()
 
     def code108(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/01.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/01.wav')
         sample.play()
     
     def code231(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/02.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/02.wav')
         sample.play()
 
     def code1073741824(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/03.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/03.wav')
         sample.play()
     
     def code93(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/04.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/04.wav')
         sample.play()
     
     def code92(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/05.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/05.wav')
         sample.play()
     
     def code122(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/06.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/06.wav')
         sample.play()
 
     def code120(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/07.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/07.wav')
         sample.play()
     
     def code99(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/08.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/08.wav')
         sample.play()
     
     def code118(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/09.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/09.wav')
         sample.play()
     
     def code98(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/10.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/10.wav')
         sample.play()
     
     def code110(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/11.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/11.wav')
         sample.play()
     
     def code109(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/12.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/12.wav')
         sample.play()
     
     def code44(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/13.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/13.wav')
         sample.play()
     
     def code46(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/14.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/14.wav')
         sample.play()
     
     def code59(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/15.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/15.wav')
         sample.play()
     
     def code47(self,keyborad):
-        sample = pygame.mixer.Sound('samples/Skrillex_Cinema/16.wav')
+        sample = pygame.mixer.Sound('samples/Skrillex_ First_of_ the_Year_Equinox/16.wav')
         sample.play()
     
 
