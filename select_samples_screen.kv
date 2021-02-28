@@ -1,0 +1,198 @@
+#:kivy 2.0.0
+
+<KeyboardSelectSamples@BoxLayout>:
+    BoxLayout:
+        orientation:"vertical"
+        spacing: 5
+        BoxLayout:
+            orientation:"horizontal"
+            spacing: 5
+            
+			BoxLayout:
+				orientation: "vertical"
+				BoxLayout:
+					Button:
+						background_normal: "images/background_normal_icon_file.png"
+						background_down: "images/background_down_icon_file.png"
+						on_press: app.root.get_screen("select_samples").select_sample()
+					Button:
+						text: "1"
+						on_press: app.on_keyboard_down(self, 49)
+				BoxLayout:
+					oriemtation:"horizontal"
+					Label:
+						text: "Loop"
+					CheckBox:
+						
+
+            ButtonCustom:
+                text: "2"
+                on_press: app.on_keyboard_down(self, 50)
+
+            ButtonCustom:
+                text: "3"
+                on_press: app.on_keyboard_down(self, 51)
+
+            ButtonCustom:
+                text: "4"
+                on_press: app.on_keyboard_down(self, 52)
+
+            ButtonCustom:
+                text: "5"
+                on_press: app.on_keyboard_down(self, 53)
+
+            ButtonCustom:
+                text: "6"
+                on_press: app.on_keyboard_down(self, 54)
+
+            ButtonCustom:
+                text: "7"
+                on_press: app.on_keyboard_down(self,55)
+
+            ButtonCustom:
+                text: "8"
+                on_press: app.on_keyboard_down(self, 56)
+
+            ButtonCustom:
+                text: "9"
+                on_press: app.on_keyboard_down(self, 57)
+
+            ButtonCustom:
+                text: "0"
+                on_press: app.on_keyboard_down(self, 48)
+
+
+        BoxLayout:
+            orientation:"horizontal"
+            spacing: 5
+            ButtonCustom:
+                text: "Q"
+                on_press: app.on_keyboard_down(self, 113)
+
+            ButtonCustom:
+                text: "W"
+                on_press: app.on_keyboard_down(self, 119)
+
+            ButtonCustom:
+                text: "E"
+                on_press: app.on_keyboard_down(self, 101)
+            
+            ButtonCustom:
+                text: "R"
+                on_press: app.on_keyboard_down(self, 114)
+
+            ButtonCustom:
+                text: "T"
+                on_press: app.on_keyboard_down(self, 116)
+            
+            ButtonCustom:
+                text: "Y"
+                on_press: app.on_keyboard_down(self, 121)
+            
+            ButtonCustom:
+                text: "U"
+                on_press: app.on_keyboard_down(self, 117)
+            
+            ButtonCustom:
+                text: "I"
+                on_press: app.on_keyboard_down(self, 105)
+            
+            ButtonCustom:
+                text: "O"
+                on_press: app.on_keyboard_down(self, 111)
+
+            ButtonCustom:
+                text: "P"
+                on_press: app.on_keyboard_down(self, 112)
+
+        BoxLayout:
+            orientation:"horizontal"
+            spacing: 5
+            ButtonCustom:
+                text: "A"
+                on_press: app.on_keyboard_down(self, 97)
+
+            ButtonCustom:
+                text: "S"
+                on_press: app.on_keyboard_down(self, 115)
+
+            ButtonCustom:
+                text: "D"
+                on_press: app.on_keyboard_down(self, 100)
+
+            ButtonCustom:
+                text: "F"
+                on_press: app.on_keyboard_down(self, 102)
+
+            ButtonCustom:
+                text: "G"
+                on_press: app.on_keyboard_down(self, 103)
+
+            ButtonCustom:
+                text: "H"
+                on_press: app.on_keyboard_down(self, 104)
+
+            ButtonCustom:
+                text: "J"
+                on_press: app.on_keyboard_down(self, 106)
+
+            ButtonCustom:
+                text: "K"
+                on_press: app.on_keyboard_down(self, 107)
+
+            ButtonCustom:
+                text: "L"
+                on_press: app.on_keyboard_down(self, 108)
+
+            ButtonCustom:
+                text: "Ç"
+                on_press: app.on_keyboard_down(self, 231)
+
+        BoxLayout:
+            orientation:"horizontal"
+            spacing: 5
+
+            ButtonCustom:
+                text: "Z"
+                on_press: app.on_keyboard_down(self, 122)
+            
+            ButtonCustom:
+                text: "X"
+                on_press: app.on_keyboard_down(self, 120)
+            
+            ButtonCustom:
+                text: "C"
+                on_press: app.on_keyboard_down(self, 99)
+            
+            ButtonCustom:
+                text: "V"
+                on_press: app.on_keyboard_down(self, 118)
+
+            ButtonCustom:
+                text: "B"
+                on_press: app.on_keyboard_down(self, 98)
+            
+            ButtonCustom:
+                text: "N"
+                on_press: app.on_keyboard_down(self, 110)
+            
+            ButtonCustom:
+                text: "M"
+                on_press: app.on_keyboard_down(self, 109)
+            
+            ButtonCustom:
+                text: "<"
+                on_press: app.on_keyboard_down(self, 44)
+                bold:True
+            
+            ButtonCustom:
+                text: ">"
+                on_press: app.on_keyboard_down(self, 46)
+                bold: True
+            
+            ButtonCustom:
+                text: ";"
+                on_press: app.on_keyboard_down(self, 56)
+                bold:True
+
+    
