@@ -1,9 +1,12 @@
 
+
 import pygame
 pygame.mixer.init()
+import os
+os.environ['SDL_AUDIODRIVER'] = 'dsp'
 
 
-class PlaySom:
+class Play:
     
     def __init__(self):
         self.keycodes = {
@@ -59,13 +62,10 @@ class PlaySom:
             56: "sounds/BD-ER40.wav"
         }
 
-    def play_samples(self, keycode):
+    def play_sample(self, keycode):
         pygame.mixer.music.load(self.sourcs_samples[keycode])
         pygame.mixer.music.play()
 
-    def fix_functions_in_keycodes(self):
-        for key in self.keycodes.keys():
-            self.keycodes[key] = self.play_samples
 
     
 

@@ -1,35 +1,19 @@
+
 from kivy.app import App
+from launchPy_screenmanager import interface
 from kivy.core.window import Window
-from playsound import PlaySom
-from kivy.uix.screenmanager import ScreenManager, Screen
-from kivy.lang import Builder
-
-from select_sample import SelectSamples
-from button_custom import ButtonCustom
-
-Builder.load_file('inicial_screen.kv')
-Builder.load_file('select_samples_screen.kv')
+from manager import Manager
 
 
-class Interface(ScreenManager):
-    pass
+class LaunchPyApp(App):
 
-
-class Tablet(Screen):
-    pass
-
-
-class SomPyApp(App):
-    
     def build(self):
         Window.bind(on_key_down=self.on_keyboard_down)
-        return Interface()
+        return interface
 
     def on_keyboard_down(self, window, keycode, *args):
-        play = PlaySom()
-        if keycode in play.keycodes.keys():
-            play.fix_functions_in_keycodes()
-            play.keycodes[keycode](keycode)
+        Manager().control(keycode)
 
 
-SomPyApp().run()
+if __name__ == '__main__':
+    LaunchPyApp().run()

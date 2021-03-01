@@ -1,8 +1,8 @@
+
 from kivy.uix.popup import Popup
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.filechooser import FileChooserIconView
 from kivy.uix.screenmanager import Screen
-import os
 
 
 class FileChoo(FileChooserIconView):
